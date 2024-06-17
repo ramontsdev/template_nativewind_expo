@@ -21,6 +21,7 @@
     }
   },
   "rules": {
+    "no-shadow": "off",
     "max-len": [
       "error",
       {
@@ -39,18 +40,12 @@
     "jsx-a11y/interactive-supports-focus": "off",
     "react/jsx-no-bind": "off",
     "react/button-has-type": "off",
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".tsx"
-        ]
-      }
-    ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/require-default-props": "off",
     "react-jsx-no-bind": "off",
+    "react/jsx-filename-extension": "off",
+    "react/no-unescaped-entities": "off",
     "no-undef": "off",
     "no-empty": [
       "error",
