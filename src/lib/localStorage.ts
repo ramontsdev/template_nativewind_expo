@@ -1,6 +1,6 @@
 import { MMKV } from 'react-native-mmkv';
 
-import { LocalStorageKeys } from '@/src/utils/localStorageKeys';
+import { LocalStorageKeys } from '@/utils/localStorageKeys';
 
 export const mmkvStorage = new MMKV();
 
