@@ -1,4 +1,4 @@
-import '../styles/global.css';
+import '../app/styles/global.css';
 
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
@@ -12,7 +12,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    SpaceMono: require('../shared/assets/fonts/SpaceMono-Regular.ttf'),
   });
 
   useEffect(() => {

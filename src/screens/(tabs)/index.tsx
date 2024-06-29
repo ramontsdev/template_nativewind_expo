@@ -1,6 +1,6 @@
 import { Text, View } from 'react-native';
 
-import SVGLogo from '../../assets/svg-logo.svg';
+import SVGLogo from '../../shared/assets/svg-logo.svg';
 
 export default function HomeScreen() {
   return (

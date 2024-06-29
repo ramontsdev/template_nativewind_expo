@@ -16,5 +16,5 @@ module.exports = (() => {
     sourceExts: [...resolver.sourceExts, "svg"],
   };
 
-  return withNativeWind(config, { input: './src/styles/global.css' })
+  return withNativeWind(config, { input: './src/app/styles/global.css' })
 })();
